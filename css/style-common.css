@@ -130,6 +130,18 @@ main section ul li {
   font-size: 20px;
 }
 
+#five #header1 {
+  color: rgb(255, 208, 0);
+}
+
+#five #header2 {
+  color: rgb(161, 201, 224);
+}
+
+#five #header3 {
+  color: teal;
+}
+
 #section-img-2,
 #section-img-1 {
   padding-left: 50px;
