@@ -67,6 +67,7 @@ main section div ul {
 
 main #two div ul li::before,
 main #three div ul li::before,
+main #product div ul li::before,
 main #four div ul li::before {
   content: "\2022";
   color: rgb(0, 72, 94);
@@ -109,6 +110,7 @@ main section ul li {
 #two .left-section p,
 #three .left-section p,
 #four .left-section p,
+#product .left-section p,
 #five .left-section p {
   padding-left: 40px;
   font-size: 24px;
@@ -261,6 +263,11 @@ main section ul li {
 #six li {
   padding: 0;
   color: black;
+}
+
+#product {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 footer {
